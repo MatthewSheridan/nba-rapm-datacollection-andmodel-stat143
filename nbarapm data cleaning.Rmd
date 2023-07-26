@@ -1,0 +1,78 @@
+---
+title: "nbarapm data cleaning"
+author: "Matt Sheridan"
+date: "2023-07-19"
+output: pdf_document
+---
+
+```{r, warning = F}
+library(plyr)
+library(dplyr)
+
+stint_data <- read.csv("data/0022100500_possessions.csv")
+
+player_id_matches <- read.csv("stats_nba_player_data_2021-22.csv")[,c("PLAYER_ID", "PLAYER_NAME")]
+
+#NBAID is the correct match
+
+stint_data$team1player1 <- 
+  mapvalues(stint_data$team1_player1, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+stint_data$team1player2 <- 
+  mapvalues(stint_data$team1_player2, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+stint_data$team1player3 <- 
+  mapvalues(stint_data$team1_player3, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+stint_data$team1player4 <- 
+  mapvalues(stint_data$team1_player4, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+stint_data$team1player5 <- 
+  mapvalues(stint_data$team1_player5, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+
+stint_data$team2player1 <- 
+  mapvalues(stint_data$team2_player1, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+stint_data$team2player2 <- 
+  mapvalues(stint_data$team2_player2, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+stint_data$team2player3 <- 
+  mapvalues(stint_data$team2_player3, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+stint_data$team2player4 <- 
+  mapvalues(stint_data$team2_player4, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+stint_data$team2player5 <- 
+  mapvalues(stint_data$team2_player5, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME)
+
+stint_data$timeofpos <- (stint_data$possession_end - stint_data$possession_start)
+
+
+stint_data <- stint_data %>% group_by(team1player1, team1player2, team1player3, team1player4, team1player5,
+                        team2player1, team2player2, team2player3, team2player4, team2player5) %>%  
+  dplyr::summarise(across(c(team1_points, team2_points, turnovers, timeofpos), sum), .groups = 'drop') %>% as.data.frame()
+
+write.csv(stint_data, "stint_data_20212022.csv", row.names = F)
+
+```
+
+```{r}
+library(RSelenium)
+library(rvest)
+library(XML)
+
+# Use Selenium to Scrape NBA IDs
+rD <- rsDriver(browser="chrome")
+remDr <- rD$client
+
+remDr$navigate('https://stats.nba.com/players/list/?Historic=Y')
+page <- remDr$getPageSource()[[1]]
+doc <- htmlParse(page)
+links <- as.character(xpathSApply(doc, "//a/@href"))
+links <- links[grepl("/player/[0-9]", links)]
+
+names_list <- {}
+for(i in 1:25){ # No players have last name starting with X
+  names <- remDr$findElements(using = 'xpath', paste0("/html/body/main/div[2]/div/div[2]/div/div/section[",i,"]"))
+  names <- unlist(lapply(names, function(x){x$getElementText()}))
+  names <- unlist(strsplit(names, '\n'))
+  names <- names[nchar(names) > 1]
+  names_list[i] <- list(names)
+}
+
+remDr$close()
+rD$server$stop()
+
+```
