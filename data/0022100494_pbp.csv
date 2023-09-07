@@ -376,7 +376,7 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100494,554,5,2,4,7:48 PM,9:30,Anderson STEAL (1 STL),,Boucher Lost Ball Turnover (P5.T19),,,5,1628449,Chris Boucher,1610612761.0,Toronto,Raptors,TOR,4,1626147,Justin Anderson,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
 0022100494,556,1,98,4,7:48 PM,9:25,Anderson 1' Cutting Layup Shot (5 PTS) (Nembhard Jr. 3 AST),,,81 - 127,46,4,1626147,Justin Anderson,1610612739.0,Cleveland,Cavaliers,CLE,4,1630612,RJ Nembhard,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
 0022100494,558,9,1,4,7:48 PM,9:25,,,Raptors Timeout: Regular (Reg.5 Short 0),,,3,1610612761,,,,,,0,0,,,,,,0,0,,,,,,0
-0022100494,559,8,0,4,7:49 PM,9:25,SUB: Scott FOR Pangos,,,,,4,1630698,Kevin Pangos,1610612739.0,Cleveland,Cavaliers,CLE,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0
+0022100494,559,8,0,4,7:49 PM,9:25,SUB: Scott FOR Pangos,,,,,4,1630698,Kevin Pangos,1610612739.0,Cleveland,Cavaliers,CLE,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0
 0022100494,561,1,79,4,7:51 PM,9:08,,,Waters 33' 3PT Pullup Jump Shot (8 PTS),84 - 127,43,5,1629682,Tremont Waters,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,562,1,6,4,7:52 PM,8:52,Nembhard Jr. 1' Driving Layup (2 PTS),,,84 - 129,45,4,1630612,RJ Nembhard,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,563,2,1,4,7:52 PM,8:38,,,MISS Boucher 26' 3PT Jump Shot,,,5,1628449,Chris Boucher,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
@@ -384,7 +384,7 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100494,566,5,11,4,7:53 PM,8:12,CAVALIERS Turnover: Shot Clock (T#13),,,,,2,1610612739,,,,,,0,0,,,,,,1,0,,,,,,0
 0022100494,568,1,5,4,7:53 PM,7:59,,,Oturu 3' Layup (5 PTS),86 - 129,43,5,1630187,Daniel Oturu,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,569,7,2,4,7:53 PM,7:59,Fall Violation:Defensive Goaltending (J.Schroeder),,,,,4,1629605,Tacko Fall,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1,0,,,,,,1
-0022100494,570,2,1,4,7:54 PM,7:39,MISS Scott 25' 3PT Jump Shot,,,,,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
+0022100494,570,2,1,4,7:54 PM,7:39,MISS Scott 25' 3PT Jump Shot,,,,,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,571,4,0,4,7:54 PM,7:36,,,Banton REBOUND (Off:1 Def:2),,,5,1630625,Dalano Banton,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,574,2,6,4,7:54 PM,7:32,,,MISS Boucher Driving Layup,,,5,1628449,Chris Boucher,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,575,4,0,4,7:54 PM,7:30,CAVALIERS Rebound,,,,,2,1610612739,,,,,,0,0,,,,,,0,0,,,,,,0
@@ -399,7 +399,7 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100494,587,3,12,4,7:55 PM,7:10,,,Oturu Free Throw 2 of 2 (7 PTS),88 - 129,41,5,1630187,Daniel Oturu,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,588,2,5,4,7:56 PM,6:53,MISS Kornet 1' Layup,,,,,4,1628436,Luke Kornet,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,589,4,0,4,7:56 PM,6:46,Kornet REBOUND (Off:2 Def:1),,,,,4,1628436,Luke Kornet,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
-0022100494,590,2,5,4,7:56 PM,6:43,MISS Scott 3' Layup,,,,,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
+0022100494,590,2,5,4,7:56 PM,6:43,MISS Scott 3' Layup,,,,,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,591,4,0,4,7:56 PM,6:39,,,Waters REBOUND (Off:0 Def:3),,,5,1629682,Tremont Waters,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,592,2,1,4,7:56 PM,6:36,,,MISS Morgan 25' 3PT Jump Shot,,,5,1629752,Juwan Morgan,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,593,4,0,4,7:56 PM,6:33,Anderson REBOUND (Off:0 Def:4),,,,,4,1626147,Justin Anderson,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
@@ -414,9 +414,9 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100494,606,2,3,4,7:57 PM,5:23,MISS Kornet 6' Hook Shot,,,,,4,1628436,Luke Kornet,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,607,4,0,4,7:57 PM,5:21,,,Wilson REBOUND (Off:1 Def:6),,,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,608,1,98,4,7:57 PM,5:11,,,Wilson 1' Cutting Layup Shot (12 PTS) (Mykhailiuk 4 AST),92 - 132,40,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,5,1629004,Svi Mykhailiuk,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,1
-0022100494,610,2,47,4,7:58 PM,4:49,MISS Scott 13' Turnaround Jump Shot,,,,,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
+0022100494,610,2,47,4,7:58 PM,4:49,MISS Scott 13' Turnaround Jump Shot,,,,,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,611,4,0,4,7:58 PM,4:47,,,Wilson REBOUND (Off:1 Def:7),,,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
-0022100494,612,2,9,4,7:58 PM,4:37,Scott BLOCK (1 BLK),,MISS Mykhailiuk 1' Driving Dunk,,,5,1629004,Svi Mykhailiuk,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,1
+0022100494,612,2,9,4,7:58 PM,4:37,Scott BLOCK (1 BLK),,MISS Mykhailiuk 1' Driving Dunk,,,5,1629004,Svi Mykhailiuk,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,1
 0022100494,614,4,0,4,7:58 PM,4:34,Valentine REBOUND (Off:1 Def:8),,,,,4,1627756,Denzel Valentine,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,615,1,41,4,7:58 PM,4:31,Nembhard Jr. Running Layup (4 PTS) (Valentine 2 AST),,,92 - 134,42,4,1630612,RJ Nembhard,1610612739.0,Cleveland,Cavaliers,CLE,4,1627756,Denzel Valentine,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
 0022100494,617,2,79,4,7:58 PM,4:11,,,MISS Mykhailiuk 26' 3PT Pullup Jump Shot,,,5,1629004,Svi Mykhailiuk,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
@@ -426,19 +426,19 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100494,623,2,5,4,7:59 PM,3:58,MISS Kornet 2' Layup,,Wilson BLOCK (1 BLK),,,4,1628436,Luke Kornet,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,1
 0022100494,624,4,0,4,7:59 PM,3:58,CAVALIERS Rebound,,,,,2,1610612739,,,,,,0,0,,,,,,0,0,,,,,,0
 0022100494,626,8,0,4,7:59 PM,3:58,,,SUB: Morgan FOR Oturu,,,5,1630187,Daniel Oturu,1610612761.0,Toronto,Raptors,TOR,5,1629752,Juwan Morgan,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0
-0022100494,628,1,6,4,8:00 PM,3:46,Scott 1' Driving Layup (2 PTS) (Nembhard Jr. 5 AST),,,92 - 136,44,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,4,1630612,RJ Nembhard,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
+0022100494,628,1,6,4,8:00 PM,3:46,Scott 1' Driving Layup (2 PTS) (Nembhard Jr. 5 AST),,,92 - 136,44,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,4,1630612,RJ Nembhard,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
 0022100494,630,2,79,4,8:00 PM,3:37,,,MISS Mykhailiuk 10' Pullup Jump Shot,,,5,1629004,Svi Mykhailiuk,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
-0022100494,631,4,0,4,8:00 PM,3:35,Scott REBOUND (Off:0 Def:1),,,,,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
+0022100494,631,4,0,4,8:00 PM,3:35,Scott REBOUND (Off:0 Def:1),,,,,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,632,2,1,4,8:00 PM,3:29,MISS Kornet 27' 3PT Jump Shot,,,,,4,1628436,Luke Kornet,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
-0022100494,633,4,0,4,8:00 PM,3:26,Scott REBOUND (Off:1 Def:1),,,,,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
+0022100494,633,4,0,4,8:00 PM,3:26,Scott REBOUND (Off:1 Def:1),,,,,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,634,2,1,4,8:00 PM,3:24,MISS Pangos 25' 3PT Jump Shot,,,,,4,1630698,Kevin Pangos,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,635,4,0,4,8:00 PM,3:21,,,Morgan REBOUND (Off:2 Def:1),,,5,1629752,Juwan Morgan,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
-0022100494,636,6,1,4,8:00 PM,3:21,Scott P.FOUL (P1.T4) (B.Barnaky),,,,,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,5,1629682,Tremont Waters,1610612761.0,Toronto,Raptors,TOR,1,0,,,,,,1
+0022100494,636,6,1,4,8:00 PM,3:21,Scott P.FOUL (P1.T4) (B.Barnaky),,,,,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,5,1629682,Tremont Waters,1610612761.0,Toronto,Raptors,TOR,1,0,,,,,,1
 0022100494,638,8,0,4,8:00 PM,3:21,SUB: Fall FOR Kornet,,,,,4,1628436,Luke Kornet,1610612739.0,Cleveland,Cavaliers,CLE,4,1629605,Tacko Fall,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0
 0022100494,640,2,1,4,8:00 PM,3:16,,,MISS Watanabe 29' 3PT Jump Shot,,,5,1629139,Yuta Watanabe,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,641,4,0,4,8:00 PM,3:13,Nembhard Jr. REBOUND (Off:0 Def:1),,,,,4,1630612,RJ Nembhard,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,642,1,52,4,8:01 PM,3:08,Fall 1' Alley Oop Dunk (3 PTS) (Nembhard Jr. 6 AST),,,92 - 138,46,4,1629605,Tacko Fall,1610612739.0,Cleveland,Cavaliers,CLE,4,1630612,RJ Nembhard,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
-0022100494,644,6,1,4,8:01 PM,2:57,Scott P.FOUL (P2.PN) (J.Schroeder),,,,,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,1,0,,,,,,1
+0022100494,644,6,1,4,8:01 PM,2:57,Scott P.FOUL (P2.PN) (J.Schroeder),,,,,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,1,0,,,,,,1
 0022100494,646,9,1,4,8:01 PM,2:57,,,Raptors Timeout: Regular (Reg.6 Short 0),,,3,1610612761,,,,,,0,0,,,,,,0,0,,,,,,0
 0022100494,647,3,11,4,8:04 PM,2:57,,,MISS Wilson Free Throw 1 of 2,,,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,0
 0022100494,648,4,1,4,8:04 PM,2:57,,,Raptors Rebound,,,3,1610612761,,,,,,0,0,,,,,,0,0,,,,,,0
@@ -455,16 +455,16 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100494,665,4,0,4,8:05 PM,2:02,,,Watanabe REBOUND (Off:3 Def:10),,,5,1629139,Yuta Watanabe,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,666,1,72,4,8:05 PM,2:01,,,Watanabe 1' Putback Layup (24 PTS),95 - 138,43,5,1629139,Yuta Watanabe,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,667,1,79,4,8:06 PM,1:43,Anderson 20' Pullup Jump Shot (7 PTS) (Pangos 6 AST),,,95 - 140,45,4,1626147,Justin Anderson,1610612739.0,Cleveland,Cavaliers,CLE,4,1630698,Kevin Pangos,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
-0022100494,669,5,2,4,8:06 PM,1:35,Scott STEAL (1 STL),,Waters Lost Ball Turnover (P4.T21),,,5,1629682,Tremont Waters,1610612761.0,Toronto,Raptors,TOR,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
+0022100494,669,5,2,4,8:06 PM,1:35,Scott STEAL (1 STL),,Waters Lost Ball Turnover (P4.T21),,,5,1629682,Tremont Waters,1610612761.0,Toronto,Raptors,TOR,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
 0022100494,671,6,28,4,8:06 PM,1:31,,,Morgan Personal Take Foul (P3.T3) (B.Barnaky),,,5,1629752,Juwan Morgan,1610612761.0,Toronto,Raptors,TOR,4,1630612,RJ Nembhard,1610612739.0,Cleveland,Cavaliers,CLE,1,0,,,,,,1
 0022100494,673,8,0,4,8:06 PM,1:31,,,SUB: Oturu FOR Mykhailiuk,,,5,1629004,Svi Mykhailiuk,1610612761.0,Toronto,Raptors,TOR,5,1630187,Daniel Oturu,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0
-0022100494,675,1,98,4,8:07 PM,1:18,Scott 1' Cutting Layup Shot (4 PTS) (Fall 2 AST),,,95 - 142,47,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,4,1629605,Tacko Fall,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
+0022100494,675,1,98,4,8:07 PM,1:18,Scott 1' Cutting Layup Shot (4 PTS) (Fall 2 AST),,,95 - 142,47,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,4,1629605,Tacko Fall,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,1
 0022100494,677,2,1,4,8:07 PM,0:58,,,MISS Oturu 27' 3PT Jump Shot,,,5,1630187,Daniel Oturu,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,678,4,0,4,8:07 PM,0:56,,,Raptors Rebound,,,3,1610612761,,,,,,0,0,,,,,,0,0,,,,,,0
 0022100494,679,6,3,4,8:07 PM,0:56,Anderson L.B.FOUL (P3.PN) (J.Schroeder),,,,,4,1626147,Justin Anderson,1610612739.0,Cleveland,Cavaliers,CLE,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,1,0,,,,,,1
 0022100494,681,3,11,4,8:07 PM,0:56,,,Wilson Free Throw 1 of 2 (14 PTS),96 - 142,46,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,682,3,12,4,8:08 PM,0:56,,,Wilson Free Throw 2 of 2 (15 PTS),97 - 142,45,5,1628391,D.J. Wilson,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
-0022100494,683,1,58,4,8:08 PM,0:38,Scott 7' Turnaround Hook Shot (6 PTS),,,97 - 144,47,4,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
+0022100494,683,1,58,4,8:08 PM,0:38,Scott 7' Turnaround Hook Shot (6 PTS),,,97 - 144,47,4,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100494,684,1,101,4,8:08 PM,0:31,,,Watanabe 11' Driving Floating Jump Shot (26 PTS),99 - 144,45,5,1629139,Yuta Watanabe,1610612761.0,Toronto,Raptors,TOR,0,0,,,,,,0,0,,,,,,1
 0022100494,685,5,11,4,8:09 PM,0:07,CAVALIERS Turnover: Shot Clock (T#15),,,,,2,1610612739,,,,,,0,0,,,,,,1,0,,,,,,0
 0022100494,686,13,0,4,8:09 PM,0:00,,End of 4th Period (8:09 PM EST),,99 - 144,45,0,0,,,,,,0,0,,,,,,0,0,,,,,,1

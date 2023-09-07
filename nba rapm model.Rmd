@@ -16,34 +16,11 @@ library(dplyr)
 
 teams <- c("Boston Celtics", "Philadelphia 76ers", "Brooklyn Nets", "Toronto Raptors")
 
-possession_data <- read.csv('shift_agg_atl_20212022.csv') %>% filter((timeofpos > 0) & (team1id %in% teams) & (team2id %in% teams))
-```
+possession_data <- read.csv('shift_aggregated_20212022.csv') %>% filter((timeofpos > 0) & (team1id %in% teams) & (team2id %in% teams))
 
-
-
-```{r}
-
-get_players <- function(possesions) {
-  
-  possesions <- distinct(possesions)
-  players <- unique(c(unique(possesions$team1player1),
-                      unique(possesions$team1player2),
-                      unique(possesions$team1player3),
-                      unique(possesions$team1player4),
-                      unique(possesions$team1player5),
-                      unique(possesions$team2player1),
-                      unique(possesions$team2player2),
-                      unique(possesions$team2player3),
-                      unique(possesions$team2player4),
-                      unique(possesions$team2player5)))
-  return(players)
-  
-}
-
-players <- sort(get_players(possesions = possession_data))
+players <- unique(unlist(possession_data[,c(2:6, 8:12)]))
 
 print(paste0("There are ", length(players), " unique players in the dataset."))
-
 ```
 
 

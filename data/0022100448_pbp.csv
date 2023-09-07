@@ -74,7 +74,7 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100448,95,8,0,1,8:27 PM,3:31,SUB: Jones Jr. FOR Vucevic,,,,,4,202696,Nikola Vucevic,1610612741.0,Chicago,Bulls,CHI,4,1627884,Derrick Jones Jr.,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0
 0022100448,96,8,0,1,8:27 PM,3:31,SUB: Bradley FOR Green,,,,,4,1629750,Javonte Green,1610612741.0,Chicago,Bulls,CHI,4,1628396,Tony Bradley,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0
 0022100448,97,8,0,1,8:27 PM,3:31,,,SUB: Westbrook FOR Ellington,,,5,201961,Wayne Ellington,1610612747.0,Los Angeles,Lakers,LAL,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
-0022100448,98,8,0,1,8:27 PM,3:31,,,SUB: Brown Jr. FOR James,,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
+0022100448,98,8,0,1,8:27 PM,3:31,,,SUB: Brown Jr. FOR James,,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100448,99,8,0,1,8:27 PM,3:31,,,SUB: Ariza FOR Jordan,,,5,201599,DeAndre Jordan,1610612747.0,Los Angeles,Lakers,LAL,5,2772,Trevor Ariza,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100448,100,8,0,1,8:27 PM,3:31,,,SUB: Anthony FOR Thomas,,,5,202738,Isaiah Thomas,1610612747.0,Los Angeles,Lakers,LAL,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100448,108,1,57,1,8:28 PM,3:08,Ball 6' Driving Hook Shot (7 PTS),,,15 - 22,7,4,1628366,Lonzo Ball,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0,0,,,,,,1
@@ -87,7 +87,7 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100448,119,8,0,1,8:30 PM,1:54,SUB: DeRozan FOR McKinnie,,,,,4,1628035,Alfonzo McKinnie,1610612741.0,Chicago,Bulls,CHI,4,201942,DeMar DeRozan,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0
 0022100448,121,2,1,1,8:30 PM,1:47,,,MISS Anthony 20' Jump Shot,,,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100448,122,4,0,1,8:30 PM,1:44,,,Westbrook REBOUND (Off:1 Def:1),,,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
-0022100448,123,5,40,1,8:30 PM,1:42,,,Brown Jr. Out of Bounds Lost Ball Turnover (P1.T6),,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1,0,,,,,,1
+0022100448,123,5,40,1,8:30 PM,1:42,,,Brown Jr. Out of Bounds Lost Ball Turnover (P1.T6),,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1,0,,,,,,1
 0022100448,124,10,0,1,8:31 PM,1:19,Jump Ball Jones Jr. vs. Westbrook: Tip to Ball,,,,,4,1627884,Derrick Jones Jr.,1610612741.0,Chicago,Bulls,CHI,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,4,1628366,Lonzo Ball,1610612741.0,Chicago,Bulls,CHI,1
 0022100448,127,1,63,1,8:31 PM,1:18,Ball 12' Fadeaway Jumper (9 PTS),,,18 - 28,10,4,1628366,Lonzo Ball,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0,0,,,,,,1
 0022100448,129,1,1,1,8:32 PM,0:54,,,Anthony 16' Jump Shot (5 PTS) (Westbrook 3 AST),20 - 28,8,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1
@@ -142,9 +142,9 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100448,199,2,80,2,8:45 PM,7:45,,,MISS James 25' 3PT Step Back Jump Shot,,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100448,200,4,0,2,8:45 PM,7:43,Caruso REBOUND (Off:0 Def:3),,,,,4,1627936,Alex Caruso,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0,0,,,,,,1
 0022100448,202,8,0,2,8:45 PM,7:41,SUB: White FOR DeRozan,,,,,4,201942,DeMar DeRozan,1610612741.0,Chicago,Bulls,CHI,4,1629632,Coby White,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0
-0022100448,203,8,0,2,8:45 PM,7:41,,,SUB: Brown Jr. FOR Rondo,,,5,200765,Rajon Rondo,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
+0022100448,203,8,0,2,8:45 PM,7:41,,,SUB: Brown Jr. FOR Rondo,,,5,200765,Rajon Rondo,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100448,206,2,101,2,8:46 PM,7:25,MISS Caruso 8' Driving Floating Jump Shot,,Anthony BLOCK (1 BLK),,,4,1627936,Alex Caruso,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,1
-0022100448,208,4,0,2,8:46 PM,7:24,,,Brown Jr. REBOUND (Off:0 Def:1),,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
+0022100448,208,4,0,2,8:46 PM,7:24,,,Brown Jr. REBOUND (Off:0 Def:1),,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100448,210,8,0,2,8:46 PM,7:22,,,SUB: Jordan FOR Anthony,,,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,5,201599,DeAndre Jordan,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100448,212,2,6,2,8:46 PM,7:14,Vucevic BLOCK (1 BLK),,MISS James 6' Driving Layup,,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,4,202696,Nikola Vucevic,1610612741.0,Chicago,Bulls,CHI,1
 0022100448,214,4,0,2,8:47 PM,7:12,Caruso REBOUND (Off:0 Def:4),,,,,4,1627936,Alex Caruso,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0,0,,,,,,1
@@ -160,11 +160,11 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100448,226,8,0,2,8:50 PM,6:33,SUB: McKinnie FOR Ball,,,,,4,1628366,Lonzo Ball,1610612741.0,Chicago,Bulls,CHI,4,1628035,Alfonzo McKinnie,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,0
 0022100448,228,1,1,2,8:51 PM,6:22,,,Thomas 26' 3PT Jump Shot (6 PTS) (James 2 AST),36 - 40,4,5,202738,Isaiah Thomas,1610612747.0,Los Angeles,Lakers,LAL,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1
 0022100448,230,1,1,2,8:51 PM,6:07,Vucevic 26' 3PT Jump Shot (10 PTS) (White 1 AST),,,36 - 43,7,4,202696,Nikola Vucevic,1610612741.0,Chicago,Bulls,CHI,4,1629632,Coby White,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,1
-0022100448,232,1,6,2,8:51 PM,5:54,,,Brown Jr. 3' Driving Layup (2 PTS),38 - 43,5,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
-0022100448,233,6,26,2,8:51 PM,5:47,White Offensive Charge Foul (P1) (T.Brothers),,,,,4,1629632,Coby White,1610612741.0,Chicago,Bulls,CHI,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,1,0,,,,,,1
+0022100448,232,1,6,2,8:51 PM,5:54,,,Brown Jr. 3' Driving Layup (2 PTS),38 - 43,5,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
+0022100448,233,6,26,2,8:51 PM,5:47,White Offensive Charge Foul (P1) (T.Brothers),,,,,4,1629632,Coby White,1610612741.0,Chicago,Bulls,CHI,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,1,0,,,,,,1
 0022100448,235,5,37,2,8:51 PM,5:47,White Offensive Foul Turnover (P1.T2),,,,,4,1629632,Coby White,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,1,0,,,,,,1
 0022100448,236,8,0,2,8:51 PM,5:47,,,SUB: Westbrook FOR James,,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
-0022100448,237,8,0,2,8:51 PM,5:47,,,SUB: Anthony FOR Brown Jr.,,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
+0022100448,237,8,0,2,8:51 PM,5:47,,,SUB: Anthony FOR Brown Jr.,,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100448,240,6,26,2,8:52 PM,5:39,,,Westbrook Offensive Charge Foul (P1) (T.Ford),,,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,4,1627936,Alex Caruso,1610612741.0,Chicago,Bulls,CHI,1,0,,,,,,1
 0022100448,242,5,37,2,8:52 PM,5:39,,,Westbrook Offensive Foul Turnover (P2.T9),,,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1,0,,,,,,1
 0022100448,243,1,1,2,8:52 PM,5:24,Caruso 26' 3PT Jump Shot (3 PTS) (White 2 AST),,,38 - 46,8,4,1627936,Alex Caruso,1610612741.0,Chicago,Bulls,CHI,4,1629632,Coby White,1610612741.0,Chicago,Bulls,CHI,0,0,,,,,,1

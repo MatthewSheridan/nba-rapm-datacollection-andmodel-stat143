@@ -24,9 +24,9 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100436,34,4,0,1,10:19 PM,10:04,Beverley REBOUND (Off:0 Def:1),,,,,4,201976,Patrick Beverley,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,35,1,98,1,10:19 PM,9:57,Towns 1' Cutting Layup Shot (5 PTS) (Russell 1 AST),,,2 - 5,3,4,1626157,Karl-Anthony Towns,1610612750.0,Minnesota,Timberwolves,MIN,4,1626156,D'Angelo Russell,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,1
 0022100436,37,6,2,1,10:19 PM,9:57,,,Bazemore S.FOUL (P2.T2) (J.Sterling),,,5,203145,Kent Bazemore,1610612747.0,Los Angeles,Lakers,LAL,4,1626157,Karl-Anthony Towns,1610612750.0,Minnesota,Timberwolves,MIN,1,0,,,,,,1
-0022100436,39,8,0,1,10:19 PM,9:57,,,SUB: Brown Jr. FOR Bazemore,,,5,203145,Kent Bazemore,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
+0022100436,39,8,0,1,10:19 PM,9:57,,,SUB: Brown Jr. FOR Bazemore,,,5,203145,Kent Bazemore,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100436,41,3,10,1,10:20 PM,9:57,Towns Free Throw 1 of 1 (6 PTS),,,2 - 6,4,4,1626157,Karl-Anthony Towns,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
-0022100436,42,2,101,1,10:20 PM,9:47,,,MISS Brown Jr. 12' Driving Floating Jump Shot,,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
+0022100436,42,2,101,1,10:20 PM,9:47,,,MISS Brown Jr. 12' Driving Floating Jump Shot,,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100436,43,4,0,1,10:20 PM,9:43,Vanderbilt REBOUND (Off:0 Def:1),,,,,4,1629020,Jarred Vanderbilt,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,44,1,3,1,10:20 PM,9:29,Towns 10' Hook Shot (8 PTS),,,2 - 8,6,4,1626157,Karl-Anthony Towns,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,45,1,108,1,10:20 PM,9:12,,,Davis 2' Cutting Dunk Shot (4 PTS) (Westbrook 1 AST),4 - 8,4,5,203076,Anthony Davis,1610612747.0,Los Angeles,Lakers,LAL,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1
@@ -66,11 +66,11 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100436,90,4,0,1,10:29 PM,6:01,TIMBERWOLVES Rebound,,,,,2,1610612750,,,,,,0,0,,,,,,0,0,,,,,,0
 0022100436,91,6,3,1,10:29 PM,6:01,,,James L.B.FOUL (P1.T3) (J.Goble),,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,4,201976,Patrick Beverley,1610612750.0,Minnesota,Timberwolves,MIN,1,0,,,,,,1
 0022100436,94,1,1,1,10:30 PM,5:49,McDaniels 3PT Jump Shot (3 PTS) (Beasley 1 AST),,,8 - 17,9,4,1630183,Jaden McDaniels,1610612750.0,Minnesota,Timberwolves,MIN,4,1627736,Malik Beasley,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,1
-0022100436,96,2,1,1,10:30 PM,5:36,,,MISS Brown Jr. 3PT Jump Shot,,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
+0022100436,96,2,1,1,10:30 PM,5:36,,,MISS Brown Jr. 3PT Jump Shot,,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100436,97,4,0,1,10:30 PM,5:32,Vanderbilt REBOUND (Off:2 Def:4),,,,,4,1629020,Jarred Vanderbilt,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,98,2,1,1,10:30 PM,5:24,MISS Beasley 28' 3PT Jump Shot,,,,,4,1627736,Malik Beasley,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,99,4,0,1,10:30 PM,5:21,,,James REBOUND (Off:1 Def:2),,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
-0022100436,100,2,41,1,10:30 PM,5:18,Towns BLOCK (1 BLK),,MISS Brown Jr. 1' Running Layup,,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,4,1626157,Karl-Anthony Towns,1610612750.0,Minnesota,Timberwolves,MIN,1
+0022100436,100,2,41,1,10:30 PM,5:18,Towns BLOCK (1 BLK),,MISS Brown Jr. 1' Running Layup,,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,4,1626157,Karl-Anthony Towns,1610612750.0,Minnesota,Timberwolves,MIN,1
 0022100436,102,4,0,1,10:30 PM,5:15,Beverley REBOUND (Off:0 Def:2),,,,,4,201976,Patrick Beverley,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,103,2,103,1,10:30 PM,5:12,MISS Beverley 25' 3PT Running Pull-Up Jump Shot,,,,,4,201976,Patrick Beverley,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,104,4,0,1,10:31 PM,5:06,,,Rondo REBOUND (Off:0 Def:1),,,5,200765,Rajon Rondo,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
@@ -95,7 +95,7 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100436,132,4,0,1,10:33 PM,3:24,,,Rondo REBOUND (Off:0 Def:2),,,5,200765,Rajon Rondo,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100436,133,5,2,1,10:33 PM,3:23,Beverley STEAL (1 STL),,Davis Lost Ball Turnover (P2.T3),,,5,203076,Anthony Davis,1610612747.0,Los Angeles,Lakers,LAL,4,201976,Patrick Beverley,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,1
 0022100436,135,1,108,1,10:33 PM,3:20,Beasley Cutting Dunk Shot (2 PTS) (Beverley 1 AST),,,10 - 19,9,4,1627736,Malik Beasley,1610612750.0,Minnesota,Timberwolves,MIN,4,201976,Patrick Beverley,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,1
-0022100436,137,2,1,1,10:33 PM,2:59,,,MISS Brown Jr. 24' 3PT Jump Shot,,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
+0022100436,137,2,1,1,10:33 PM,2:59,,,MISS Brown Jr. 24' 3PT Jump Shot,,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100436,138,4,0,1,10:34 PM,2:55,Okogie REBOUND (Off:0 Def:1),,,,,4,1629006,Josh Okogie,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,140,2,1,1,10:34 PM,2:42,MISS Okogie 26' 3PT Jump Shot,,,,,4,1629006,Josh Okogie,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,141,4,0,1,10:34 PM,2:40,Beverley REBOUND (Off:1 Def:2),,,,,4,201976,Patrick Beverley,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
@@ -448,7 +448,7 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100436,662,1,1,4,12:28 AM,5:14,,,James 27' 3PT Jump Shot (18 PTS) (Anthony 4 AST),82 - 103,21,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1
 0022100436,664,9,1,4,12:28 AM,5:13,TIMBERWOLVES Timeout: Regular (Full 4 Short 0),,,,,2,1610612750,,,,,,0,0,,,,,,0,0,,,,,,0
 0022100436,665,8,0,4,12:30 AM,5:13,,,SUB: Huff FOR Westbrook,,,5,201566,Russell Westbrook,1610612747.0,Los Angeles,Lakers,LAL,5,1630643,Jay Huff,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
-0022100436,666,8,0,4,12:30 AM,5:13,,,SUB: Brown Jr. FOR James,,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
+0022100436,666,8,0,4,12:30 AM,5:13,,,SUB: Brown Jr. FOR James,,,5,2544,LeBron James,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100436,667,8,0,4,12:30 AM,5:13,,,SUB: Ellington FOR Anthony,,,5,2546,Carmelo Anthony,1610612747.0,Los Angeles,Lakers,LAL,5,201961,Wayne Ellington,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
 0022100436,671,8,0,4,12:30 AM,5:13,SUB: Russell FOR Nowell,,,,,4,1629669,Jaylen Nowell,1610612750.0,Minnesota,Timberwolves,MIN,4,1626156,D'Angelo Russell,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0
 0022100436,673,2,1,4,12:30 AM,5:00,MISS Towns 25' 3PT Jump Shot,,,,,4,1626157,Karl-Anthony Towns,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
@@ -471,8 +471,8 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100436,700,6,4,4,12:34 AM,3:37,,,Ellington OFF.Foul (P1) (J.Sterling),,,5,201961,Wayne Ellington,1610612747.0,Los Angeles,Lakers,LAL,4,1629162,Jordan McLaughlin,1610612750.0,Minnesota,Timberwolves,MIN,1,0,,,,,,1
 0022100436,702,5,37,4,12:34 AM,3:37,,,Ellington Offensive Foul Turnover (P3.T18),,,5,201961,Wayne Ellington,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1,0,,,,,,1
 0022100436,703,2,79,4,12:35 AM,3:24,MISS Nowell 14' Pullup Jump Shot,,,,,4,1629669,Jaylen Nowell,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
-0022100436,704,4,0,4,12:35 AM,3:21,,,Brown Jr. REBOUND (Off:0 Def:1),,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
-0022100436,705,2,6,4,12:35 AM,3:15,,,MISS Brown Jr. 4' Driving Layup,,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
+0022100436,704,4,0,4,12:35 AM,3:21,,,Brown Jr. REBOUND (Off:0 Def:1),,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
+0022100436,705,2,6,4,12:35 AM,3:15,,,MISS Brown Jr. 4' Driving Layup,,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100436,706,4,0,4,12:35 AM,3:11,Knight REBOUND (Off:0 Def:1),,,,,4,1630233,Nathan Knight,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,707,6,2,4,12:35 AM,3:07,,,Huff S.FOUL (P1.T4) (J.Sterling),,,5,1630643,Jay Huff,1610612747.0,Los Angeles,Lakers,LAL,4,1630233,Nathan Knight,1610612750.0,Minnesota,Timberwolves,MIN,1,0,,,,,,1
 0022100436,709,3,11,4,12:35 AM,3:07,Knight Free Throw 1 of 2 (3 PTS),,,82 - 108,26,4,1630233,Nathan Knight,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
@@ -502,10 +502,10 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100436,737,5,45,4,12:39 AM,1:11,Bolmaro Out of Bounds - Bad Pass Turnover Turnover (P1.T13),,,,,4,1630195,Leandro Bolmaro,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,738,1,1,4,12:40 AM,1:00,,,Ellington 3PT Jump Shot (8 PTS) (Bazemore 3 AST),92 - 110,18,5,201961,Wayne Ellington,1610612747.0,Los Angeles,Lakers,LAL,5,203145,Kent Bazemore,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1
 0022100436,747,5,2,4,12:40 AM,0:50,Nowell Lost Ball Turnover (P1.T14),,Bazemore STEAL (2 STL),,,4,1629669,Jaylen Nowell,1610612750.0,Minnesota,Timberwolves,MIN,5,203145,Kent Bazemore,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0
-0022100436,740,10,0,4,12:41 AM,0:50,Jump Ball Nowell vs. Bazemore: Tip to Brown Jr.,,,,,4,1629669,Jaylen Nowell,1610612750.0,Minnesota,Timberwolves,MIN,5,203145,Kent Bazemore,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,1
+0022100436,740,10,0,4,12:41 AM,0:50,Jump Ball Nowell vs. Bazemore: Tip to Brown Jr.,,,,,4,1629669,Jaylen Nowell,1610612750.0,Minnesota,Timberwolves,MIN,5,203145,Kent Bazemore,1610612747.0,Los Angeles,Lakers,LAL,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,1
 0022100436,745,2,1,4,12:41 AM,0:44,,,MISS Thomas 26' 3PT Jump Shot,,,5,202738,Isaiah Thomas,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100436,746,4,0,4,12:41 AM,0:40,Layman REBOUND (Off:0 Def:2),,,,,4,1627774,Jake Layman,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,749,5,1,4,12:41 AM,0:31,Bolmaro Bad Pass Turnover (P2.T15),,Huff STEAL (1 STL),,,4,1630195,Leandro Bolmaro,1610612750.0,Minnesota,Timberwolves,MIN,5,1630643,Jay Huff,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,1
-0022100436,751,2,1,4,12:41 AM,0:21,,,MISS Brown Jr. 26' 3PT Jump Shot,,,5,1630602,Chaundee Brown,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
+0022100436,751,2,1,4,12:41 AM,0:21,,,MISS Brown Jr. 26' 3PT Jump Shot,,,5,1630602,Chaundee Brown Jr.,1610612747.0,Los Angeles,Lakers,LAL,0,0,,,,,,0,0,,,,,,1
 0022100436,752,4,0,4,12:41 AM,0:18,Layman REBOUND (Off:0 Def:3),,,,,4,1627774,Jake Layman,1610612750.0,Minnesota,Timberwolves,MIN,0,0,,,,,,0,0,,,,,,1
 0022100436,753,13,0,4,12:42 AM,0:00,,End of 4th Period (12:42 AM EST),,92 - 110,18,0,0,,,,,,0,0,,,,,,0,0,,,,,,1

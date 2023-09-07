@@ -460,7 +460,7 @@ GAME_ID,EVENTNUM,EVENTMSGTYPE,EVENTMSGACTIONTYPE,PERIOD,WCTIMESTRING,PCTIMESTRIN
 0022100471,665,8,0,4,9:49 PM,1:57,SUB: Jackson FOR Schroder,,,,,4,203471,Dennis Schroder,1610612738.0,Boston,Celtics,BOS,4,1628382,Justin Jackson,1610612738.0,Boston,Celtics,BOS,0,0,,,,,,0
 0022100471,666,8,0,4,9:49 PM,1:57,,,SUB: Anderson FOR Rubio,,,5,201937,Ricky Rubio,1610612739.0,Cleveland,Cavaliers,CLE,5,1626147,Justin Anderson,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0
 0022100471,667,8,0,4,9:49 PM,1:57,,,SUB: Kornet FOR Garland,,,5,1629636,Darius Garland,1610612739.0,Cleveland,Cavaliers,CLE,5,1628436,Luke Kornet,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0
-0022100471,668,8,0,4,9:49 PM,1:57,,,SUB: Scott FOR Osman,,,5,1626224,Cedi Osman,1610612739.0,Cleveland,Cavaliers,CLE,5,1630286,Tre Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0
+0022100471,668,8,0,4,9:49 PM,1:57,,,SUB: Scott FOR Osman,,,5,1626224,Cedi Osman,1610612739.0,Cleveland,Cavaliers,CLE,5,1630286,Trevon Scott,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0
 0022100471,669,8,0,4,9:49 PM,1:57,,,SUB: Pangos FOR Valentine,,,5,1627756,Denzel Valentine,1610612739.0,Cleveland,Cavaliers,CLE,5,1630698,Kevin Pangos,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0
 0022100471,679,3,12,4,9:49 PM,1:57,,,MISS Love Free Throw 2 of 2,,,5,201567,Kevin Love,1610612739.0,Cleveland,Cavaliers,CLE,0,0,,,,,,0,0,,,,,,1
 0022100471,680,4,0,4,9:49 PM,1:56,Fernando REBOUND (Off:0 Def:1),,,,,4,1628981,Bruno Fernando,1610612738.0,Boston,Celtics,BOS,0,0,,,,,,0,0,,,,,,1
