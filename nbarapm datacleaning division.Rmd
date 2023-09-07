@@ -1,0 +1,101 @@
+---
+title: "nbarapm datacleaning division"
+author: "Matt Sheridan"
+date: "2023-09-07"
+output: pdf_document
+---
+
+```{r, warning = F}
+library(plyr)
+library(dplyr)
+
+stint_data <- read.csv("data2/all_possessions.csv")
+
+player_id_matches <- read.csv("stats_nba_player_data_2021-22.csv")[,c("PLAYER_ID", "PLAYER_NAME")]
+
+team_id_matches <- read.csv("NBA_Team_IDs.csv")
+
+#NBAID is the correct match
+
+stint_data$team1player1 <- 
+  mapvalues(stint_data$team1_player1, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+
+stint_data$team1player2 <- 
+  mapvalues(stint_data$team1_player2, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+stint_data$team1player3 <- 
+  mapvalues(stint_data$team1_player3, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+stint_data$team1player4 <- 
+  mapvalues(stint_data$team1_player4, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+stint_data$team1player5 <- 
+  mapvalues(stint_data$team1_player5, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+stint_data$team1id <- 
+  mapvalues(stint_data$team1_id, from = team_id_matches$NBA_Current_Link_ID, to = team_id_matches$Current_BBRef_Team_Name, warn_missing = F)
+
+stint_data$team2player1 <- 
+  mapvalues(stint_data$team2_player1, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+stint_data$team2player2 <- 
+  mapvalues(stint_data$team2_player2, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+stint_data$team2player3 <- 
+  mapvalues(stint_data$team2_player3, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+stint_data$team2player4 <- 
+  mapvalues(stint_data$team2_player4, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+stint_data$team2player5 <- 
+  mapvalues(stint_data$team2_player5, from = player_id_matches$PLAYER_ID, to = player_id_matches$PLAYER_NAME, warn_missing = F)
+
+stint_data$team2id <- 
+  mapvalues(stint_data$team2_id, from = team_id_matches$NBA_Current_Link_ID, to = team_id_matches$Current_BBRef_Team_Name, warn_missing = F)
+
+
+stint_data$timeofpos <- (stint_data$possession_end - stint_data$possession_start)
+
+unagg_data <- stint_data %>% select(team1id, team1player1, team1player2, team1player3, team1player4, team1player5,
+                                    team2id, team2player1, team2player2, team2player3, team2player4, team2player5, 
+                                    team1_points,	team2_points,	
+                                    team1_turnovers,	team2_turnovers,	
+                                    team1_rebounds,	team2_rebounds,	 
+                                    team1_blocks,	team2_blocks,	
+                                    team1_steals,	team2_steals,	
+                                    team1_fga,	team2_fga,	
+                                    team1_fgm,	team2_fgm,	
+                                    team1_3ptrsatt,	team2_3ptrsatt,
+                                    team1_3ptrsmade,	team2_3ptrsmade,                                    
+                                    team1_fta,	team2_fta,	
+                                    team1_ftmade,	team2_ftmade, 
+                                    timeofpos)
+
+
+write.csv(unagg_data, "shift_unagg_atl_20212022.csv", row.names = F)
+
+
+agg_data <- stint_data %>% group_by(team1id, team1player1, team1player2, team1player3, team1player4, team1player5,
+                                    team2id, team2player1, team2player2, team2player3, team2player4, team2player5) %>%  
+  dplyr::summarise(across(c(team1_points,	team2_points,	
+                            team1_turnovers,	team2_turnovers,	
+                            team1_rebounds,	team2_rebounds,	
+                            team1_blocks,	team2_blocks,	
+                            team1_steals,	team2_steals,	
+                            team1_fga,	team2_fga,	
+                            team1_fgm,	team2_fgm,	
+                            team1_3ptrsatt,	team2_3ptrsatt,
+                            team1_3ptrsmade,	team2_3ptrsmade,
+                            team1_fta,	team2_fta,	
+                            team1_ftmade,	team2_ftmade, 
+                            timeofpos), sum), .groups = 'drop') %>% 
+  select(team1id, team1player1, team1player2, team1player3, team1player4, team1player5,
+                                    team2id, team2player1, team2player2, team2player3, team2player4, team2player5, 
+                                    team1_points,	team2_points,	
+                                    team1_turnovers,	team2_turnovers,	
+                                    team1_rebounds,	team2_rebounds,	 
+                                    team1_blocks,	team2_blocks,	
+                                    team1_steals,	team2_steals,	
+                                    team1_fga,	team2_fga,	
+                                    team1_fgm,	team2_fgm,	
+                                    team1_3ptrsatt,	team2_3ptrsatt,
+                                    team1_3ptrsmade,	team2_3ptrsmade,
+                                    team1_fta,	team2_fta,	
+                                    team1_ftmade,	team2_ftmade, 
+                                    timeofpos) %>% as.data.frame()
+
+write.csv(agg_data, "shift_agg_atl_20212022.csv", row.names = F)
+
+```

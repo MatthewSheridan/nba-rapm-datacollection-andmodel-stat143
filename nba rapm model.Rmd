@@ -12,18 +12,11 @@ library(glmnet)
 library(knitr)
 library(dplyr)
 
+# code adapted from https://github.com/anpatton/basic-nba-tutorials/blob/main/rapm/how_to_calculate_rapm.md
+
 teams <- c("Boston Celtics", "Philadelphia 76ers", "Brooklyn Nets", "Toronto Raptors")
 
-possession_data <- read.csv('shift_aggregated_20212022.csv') %>% filter((timeofpos > 0) & (team1id %in% teams) & (team2id %in% teams))
-
-od <- read.csv("https://raw.githubusercontent.com/rd11490/NBA_Tutorials/master/rapm/data/rapm_possessions.csv") %>% 
-  filter(possessions != 0) %>% select(-X)
-
-od
-
-#player_data <- read.csv("https://raw.githubusercontent.com/rd11490/NBA_Tutorials/master/rapm/data/player_names.csv")
-
-
+possession_data <- read.csv('shift_agg_atl_20212022.csv') %>% filter((timeofpos > 0) & (team1id %in% teams) & (team2id %in% teams))
 ```
 
 
@@ -47,7 +40,7 @@ get_players <- function(possesions) {
   
 }
 
-players <- sort(get_players(possesions = possesion_data))
+players <- sort(get_players(possesions = possession_data))
 
 print(paste0("There are ", length(players), " unique players in the dataset."))
 
@@ -55,66 +48,12 @@ print(paste0("There are ", length(players), " unique players in the dataset."))
 
 
 ```{r}
-
-possession_data <- possession_data %>% mutate(pdpsec = (team1_points - team2_points) / timeofpos) %>% as.matrix()
-
-```
-
-
-```{r}
-
-make_matrix_rows <- function(lineup, players_in) {
-  
-  player1 <- lineup[1]
-  player2 <- lineup[2]
-  player3 <- lineup[3]
-  player4 <- lineup[4]
-  player5 <- lineup[5]
-  player6 <- lineup[6]
-  player7 <- lineup[7]
-  player8 <- lineup[8]
-  player9 <- lineup[9]
-  player10 <- lineup[10]
-  
-  zeroRow <- rep(0, length(players_in))
-  
-  # OFFENSE #
-  zeroRow[which(players_in == player1)] <- 1
-  zeroRow[which(players_in == player2)] <- 1
-  zeroRow[which(players_in == player3)] <- 1
-  zeroRow[which(players_in == player4)] <- 1
-  zeroRow[which(players_in == player5)] <- 1
-  
-  # DEFENSE #
-  zeroRow[which(players_in == player6)] <- -1
-  zeroRow[which(players_in == player7)] <- -1
-  zeroRow[which(players_in == player8)] <- -1
-  zeroRow[which(players_in == player9)] <- -1
-  zeroRow[which(players_in == player10)] <- -1
-  
-  return(zeroRow)
-  
-}
-
-
-pl_mat <- as.data.frame(apply(outer(as.matrix(possession_data[,2:6], ncol = 5), players, "==") - outer(as.matrix(possession_data[,8:12], ncol = 5), players, "=="), 3, rowSums))
-
-colnames(pl_mat) <- players
-
-
-player_matrix <- t(apply(possession_data[, c(2:6, 8:12)], 1, 
-                         function(x) make_matrix_rows(lineup = x, players_in = players)))
-
-player_matrix <- as(player_matrix, "dgCMatrix")
-
-target <- possession_data$pdpsec
-weights <- possession_data$timeofpos
-
-print(dim(player_matrix))
-
+possession_data <- possession_data %>% mutate(pdpsec = (team1_points - team2_points) / timeofpos)
 
 X = Reduce("+", apply(possession_data[,2:6], 2, function(column) outer(column, players, "=="), simplify = F)) - Reduce("+", apply(possession_data[,8:12], 2, function(column) outer(column, players, "=="), simplify = F))
 
+target <- possession_data$pdpsec
+weights <- possession_data$timeofpos
 ```
 
 
@@ -122,7 +61,7 @@ X = Reduce("+", apply(possession_data[,2:6], 2, function(column) outer(column, p
 options(scipen = 9999)
 set.seed(143)
 ## this is a cross validated model to pick the lambda
-cv_model <- glmnet::cv.glmnet(x = X, ##ncol = 1058
+cv_model <- glmnet::cv.glmnet(x = X,
                            y = target,
                            alpha = 0, 
                            standardize = FALSE,
@@ -131,7 +70,7 @@ cv_model <- glmnet::cv.glmnet(x = X, ##ncol = 1058
 lam <- cv_model$lambda.min ## best lambda
 
 ## this is the model refit using that lambda
-coef_model <- glmnet::glmnet(x = player_matrix, 
+coef_model <- glmnet::glmnet(x = X, 
                           y = target,
                           alpha = 0, 
                           standardize = FALSE,
@@ -140,26 +79,13 @@ coef_model <- glmnet::glmnet(x = player_matrix,
 
 player_coefficients <- coef_model$beta ## length = 1058
 
-o_rapm <- player_coefficients[1:length(players)]
+rapm <- player_coefficients[1:length(players)]
 
-d_rapm <- player_coefficients[length(players) + 1:length(players) * 2]
+rapm_results <- data.frame("Player" = players, "RAPM (pdpsec)" = rapm) %>% arrange(-rapm)
 
-o_rapm_frame <- data.frame("player_id" = players,
-                           "o_rapm" = o_rapm)
-
-d_rapm_frame <- data.frame("player_id" = players,
-                           "d_rapm" = d_rapm)
-
-rapm <- left_join(o_rapm_frame, d_rapm_frame, by = "player_id") %>% 
-#  left_join(player_data, by = c("player_id" = "playerId")) %>% 
-  mutate(rapm = o_rapm + d_rapm) %>% 
-  select(Player = player_id,
-         RAPM = rapm,
-         `O-RAPM` = o_rapm,
-         `D-RAPM` = d_rapm) %>% 
-  arrange(-`O-RAPM`)
-
-kable(rapm[1:5, ] %>% 
+kable(rapm_results[1:15,] %>% 
           mutate(across(where(is.numeric), function(x) round(x, 5))), align = "c") 
 
+kable(rapm_results[(nrow(rapm_results)-15):nrow(rapm_results),] %>% 
+          mutate(across(where(is.numeric), function(x) round(x, 5))), align = "c")
 ```

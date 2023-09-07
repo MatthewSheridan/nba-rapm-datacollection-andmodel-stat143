@@ -99,35 +99,3 @@ agg_data <- stint_data %>% group_by(team1id, team1player1, team1player2, team1pl
 write.csv(agg_data, "shift_aggregated_20212022.csv", row.names = F)
 
 ```
-
-
-
-
-```{r, eval = F, include = F}
-library(RSelenium)
-library(rvest)
-library(XML)
-
-# Use Selenium to Scrape NBA IDs
-rD <- rsDriver(browser="chrome")
-remDr <- rD$client
-
-remDr$navigate('https://stats.nba.com/players/list/?Historic=Y')
-page <- remDr$getPageSource()[[1]]
-doc <- htmlParse(page)
-links <- as.character(xpathSApply(doc, "//a/@href"))
-links <- links[grepl("/player/[0-9]", links)]
-
-names_list <- {}
-for(i in 1:25){ # No players have last name starting with X
-  names <- remDr$findElements(using = 'xpath', paste0("/html/body/main/div[2]/div/div[2]/div/div/section[",i,"]"))
-  names <- unlist(lapply(names, function(x){x$getElementText()}))
-  names <- unlist(strsplit(names, '\n'))
-  names <- names[nchar(names) > 1]
-  names_list[i] <- list(names)
-}
-
-remDr$close()
-rD$server$stop()
-
-```
