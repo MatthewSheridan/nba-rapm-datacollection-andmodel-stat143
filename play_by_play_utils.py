@@ -304,3 +304,11 @@ def no_player_listed(row):
 
 def is_too_many_players_violation(row):
     return is_turnover(row) and row[event_subtype] == 44
+
+
+# manual
+
+def is_block(row):
+    return is_miss(row) and row[event_subtype] == 6
+def is_steal(row):
+    return is_turnover(row) and row[event_subtype] == 2
